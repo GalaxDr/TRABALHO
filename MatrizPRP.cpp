@@ -1,23 +1,20 @@
-// Algoritmo: matriz41x41
-// Objetivo: Preencher uma matriz com o desenho especificado
-// Autor: Júlio César Becker e Kristian Antonio Frey
-// Data: 15/11/2022
-/* Descrição detalhada.
-Lê as informações e completa a matriz com o desenho
+//algoritmo: matriz_jb
+//objetivo: Desenhar uma casa na matriz.
+/*DescriÃ§Ã£o detalhada.
+LÃª as informaÃ§Ãµes e realiza o desenho de uma casa na matriz.
 */
 #include <stdio.h>
 #include <math.h>
-char MATRIZ[41][41];
-int LINHAS = 41;
-int COLUNAS = 41;
-
+char MATRIZ[44][44];
+int LINHAS = 44;
+int COLUNAS = 44;
 
 char testarCondicoes(int linha, int coluna){
-    if(coluna<4  || coluna > 36 || linha == 33)
+    if(coluna<12  || coluna > 32)
         return ' ';
-    else if(coluna-linha==4 || linha+coluna==36 || ((coluna == 11 || coluna == 19 || coluna == 27) && linha>34 && linha<40))
-        return '0';
-	return '1';
+    else if(coluna-linha==20 && linha>2 || linha+coluna==24 && linha>1 || (linha>11 && linha<37 && (coluna==12 || coluna==32 || linha==36 || linha==12 || linha==13)))
+        return '1';
+	return ' ';
 }
 
 void inicia_matriz() {
