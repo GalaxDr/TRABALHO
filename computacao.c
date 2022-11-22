@@ -1,6 +1,5 @@
 // Algoritmo: matriz41x41
 // Objetivo: Preencher uma matriz com o desenho especificado
-// Autor: Júlio César Becker e Kristian Antonio Frey
 // Data: 15/11/2022
 /* Descrição detalhada.
 Lê as informações e completa a matriz com o desenho

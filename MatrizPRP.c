@@ -1,7 +1,7 @@
 //algoritmo: matriz_jb
 //objetivo: Desenhar uma casa na matriz.
-/*Descrição detalhada.
-Lê as informações e realiza o desenho de uma casa na matriz.
+/*Descricao detalhada.
+Le as informacoes e realiza o desenho de uma casa na matriz.
 */
 #include <stdio.h>
 #include <math.h>
